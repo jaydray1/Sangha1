@@ -20,7 +20,7 @@ export default class Home extends Component {
                 style={{ height: 400}} />
                 <Text>{this.state.bar}</Text>
                 <Text style={styles.header}>Practice Book</Text>
-                <PrayerStack></PrayerStack>
+                <PrayerStack style={{height: 500}}></PrayerStack>
             </ScrollView>
         )
     }
