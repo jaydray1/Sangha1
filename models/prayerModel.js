@@ -9,6 +9,11 @@ import leaf from '../assets/leaf.png';
 import anchor from '../assets/anchor.png';
 import candle from '../assets/candle.png';
 import incense from '../assets/incense.png';
+import amithabaChant from '../assets/amithabaChant.jpg';
+import jizo from '../assets/jizo.jpg';
+import guanyinMantra from '../assets/guanyinMantra.jpg';
+import heartSutraMantra from '../assets/heartSutraMantra.jpg';
+
 
 export default [
     {
@@ -112,5 +117,41 @@ export default [
         title: "Incense Offering",
         prayerText: "Sensei:\nI light this candle to represent the light of Amitabha Buddha.\n\nKO MYO HEN JO\nJI - PPO SE KAI\nNEM BU - SHU JO\nSE - SSHU FU SHA \n\nSangha:\nAs a small light can lead one out of darkness, may this small light be boundless and \nlead others out of the darkness of hatred, greed and confusion. \n\nMay it dispel the darkness of shame\nand suffering, of isolation, and fear. \n\nMay this small flame be a light to each of us -\n\nSo that our light and the light \nof Amitabha Buddha will shine forth\nshowing the way to freedom.\n\nMay it be so.  ",
         imagePath: incense
+    }
+    ,
+    {
+        title: "Amithaba Chant",
+        prayerText: "Sensei:\n\nInfinite realms of light and dark convey the Buddha Mind. \n\nBirds and trees and stars and we ourselves come forth in perfect harmony.\n\nWe practice and recite this	for all beings in the world in grateful thanks to our \nmany guides along the Way\n\nSangha:\n\nOm Namo Amitabhaya\nBuddhaya\nDharmaya\nSanghaya\n(repeat)\n\nOm Namo, Om Namo\nOm Namo Amitabhaya\n(repeat)",
+        imagePath: amithabaChant
+    }
+    ,
+    {
+        title: "Jizo Mantra",
+        prayerText: "Sensei:\n\nWe practice and recite this	for all beings who are trapped in great suffering. As Jizo is willing to go to hell to find those that are lost, let us invoke the compassionate energy of Jizo and go to those trapped in the hell of suffering and bring them out into the compassionate light of the Buddhas\n\nSangha:	 \n\nOm - Ka - Ka –\nKabi - San –\nMa - Eh –\nSowa - Ka\n(repeat)\n\n\n\nNote: Traditionally chanting this dharani invokes the energy of Jizo, and may help dispel distressing, repetitive thoughts. It is in remembrance of all those in different hells, physical and mental. May all beings be free from suffering.",
+        imagePath: jizo
+    }
+    ,
+    {
+        title: "Guanyin Mantra",
+        prayerText: "Sensei:\nShe is a source of light and removes suffering\nfrom everyone in the triple world.\nShe brings light so that all fear and distress may be forsaken. \nShe disperses the gloom and darkness of delusion.\nShe herself is the eye of vision and wisdom,\nthe Perfection of Wisdom of the Buddhas ⎯\nThe Mother of All Buddhas \n\nWe dedicate the energy and merit of this mantra\nto all victims of racism, bigotry, war and terrorism,\n\nTo the healing of hatred in all countries,\nTo the wisdom and compassion of our world leaders,\n\nTo the peace of the world,\nTo the abundance of pure water,\nTo the healing of the Earth,\nand to the harmony of all beings. \n\nSangha:\nOM MANI PADME HUM (repeat)\n(Om mani pod may hum)",
+        imagePath: guanyinMantra
+    }
+    ,
+    {
+        title: "Heart Sutra Mantra",
+        prayerText: "Sensei:\nAll Buddhas, Bodhisattvas and protectors of the Dharma and the Three Treasures,With all sentient beings, I lift my heart to transform, ignorance, violence and suffering.\n\nMay healing and peace prevail throughout the dharma worlds and all being realize boundlessness.\n\nMaha Prajna Paramita.\n\nSangha:\ngate gate \npāragate pārasaṃgate\nbodhi svāhā.\n(repeat)\n\nSensei:\ngone, gone, gone beyond,\ngone altogether beyond,\noh what an awakening,\n\nAll hail!  ",
+        imagePath: heartSutraMantra
+    }
+    ,
+    {
+        title: "Fellowship Closing",
+        prayerText: "Sensei:\nPracticing the way of oneness gives rise to benefits without end. May all beings live happily\nFree from anger, disappointment and shame\nFree from delusion, isolation, and pain.\n\nMay all share in the blessing of any good that we have done.\n\nMay the sound of this bell ring through the universe awakening all beings to joy \nand equanimity.\n(Ring bell 3x)\n\nSangha:\nMay all beings be peaceful.\nMay all beings be happy.\nMay all beings be safe.\n\nMay all beings awaken to the light of Amida Buddha - May all beings be free.\n\nNamu Amida Butsu  ",
+        imagePath: null
+    }
+    ,
+    {
+        title: "Kakuyo Sensei’s Closing Words",
+        prayerText: "Sensei\nAs we depart, we surround all people and forms of life with love and compassion.  Especially those in suffering and sorrow and all those in doubt and ignorance, longing or striving to attain freedom from reactivity and fear and enter the Way.\n\nAs we depart, may the infinite light of Wisdom and Compassion shine within us that errors and vanities of self may be dispelled; that everyday life can be the field of our practice, and we can come to understand the changing nature of existence and to awaken to spiritual freedom and to a life of everyday suchness\n\nNamu Amida Butsu.",
+        imagePath: null
     }
 ]
