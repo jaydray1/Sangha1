@@ -31,12 +31,6 @@ export default [
     ,
     {
         title: "Invocation",
-        prayerText: "Sensei:\n\nWe have gathered together today with open hearted awareness. May we be nourished by each other and by all the Buddhas and Bodhisattvas and our myriad of teachers\n\nin body, \n\nin mind, \n\nin spirit \n\nand in the Way of Oneness..",
-        imagePath: gassho
-    }
-    ,
-    {
-        title: "Invocation",
         prayerText: "Sensei:\n\nWe have gathered together today with open hearted awareness. May we be nourished by each other and by all the Buddhas and Bodhisattvas and our myriad of teachers\n\nin body, \n\nin mind, \n\nin spirit \n\nand in the Way of Oneness.\n\nSangha\n\nMay our gathering together inspire us \n\nto direct our hearts and minds – \n\nTo heal, not to harm, \n\nTo help, not to hinder, \n\nTo bless, not to curse, \n\nTo always serve the spirit of awakening. \n\nMay It Be So.",
         imagePath: gassho
     }

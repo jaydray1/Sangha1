@@ -14,21 +14,33 @@ export default class Home extends Component {
     }
     render() {
         return (
-            <ScrollView>
+            <ScrollView style={prayerStyles.scrollWidth}>
                 <Image 
                 source={threeBuddhasPic} 
                 style={{ height: 400}} />
                 <Text>{this.state.bar}</Text>
-                <Text style={styles.header}>Practice Book</Text>
-                <PrayerStack style={{height: 500}}></PrayerStack>
+                <Text style={prayerStyles.header}>Practice Book</Text>
+                <PrayerStack 
+                style={[prayerStyles.prayerHeight, prayerStyles.prayerWidth]}
+                >
+                </PrayerStack>
             </ScrollView>
         )
     }
 }
 
-const styles = StyleSheet.create({
+const prayerStyles = StyleSheet.create({
     header: {
         color: 'blue',
         fontSize: 40,
-    }
-})
+    },
+    prayerHeight: {
+        height: 500,
+    },
+    prayerWidth: {
+        width: 350,
+    },
+    scrollWidth: {
+        width: 350,
+    },
+});

@@ -13,17 +13,22 @@ export default class PrayerStack extends Component {
     render() {
         const renderedPrayers = prayerModel.map((e, i) => 
         {
-            return (e)
+            return e
         })
         return (
-            <ScrollView style={{width: 350}}>
-                <Image source={prayerModel[0].imagePath}/>
-                <Text>{prayerModel[0].title}</Text>
-                <Text>{prayerModel[0].prayerText}</Text>
+            <ScrollView>
                 <Text className="renderings">
                 {
                     renderedPrayers.map((e, i) => {
-                        return <Text key={i}>{e.title}{e.prayerText}</Text>
+                        return (
+                        <Text key={i}>
+                            <Image source={e.imagePath}/>
+                        {'\n'}{'\n'}
+                            <Text style={{fontWeight: 'bold', fontSize: 20}}>{e.title}</Text>
+                        {'\n'}{'\n'}
+                            <Text>{e.prayerText}</Text>
+                        </Text>
+                    )
                     })
                 }
                 </Text>
@@ -31,5 +36,3 @@ export default class PrayerStack extends Component {
         )
     }
 }
-
-
