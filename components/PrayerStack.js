@@ -22,11 +22,21 @@ export default class PrayerStack extends Component {
                     renderedPrayers.map((e, i) => {
                         return (
                         <Text key={i}>
-                            <Image source={e.imagePath}/>
+                            {/* <Image 
+                            source={e.imagePath} 
+                            style={{
+                                borderRadius: 500,
+                                height: 400
+                            }} 
+                            /> */}
                         {'\n'}{'\n'}
-                            <Text style={{fontWeight: 'bold', fontSize: 20}}>{e.title}</Text>
+                            <Text style={{
+                                fontWeight: 'bold', 
+                                fontSize: 20
+                            }}
+                                >{e.title}</Text>
                         {'\n'}{'\n'}
-                            <Text>{e.prayerText}</Text>
+                            <Text style={{fontSize: 20}}  >{e.prayerText}</Text>
                         </Text>
                     )
                     })
@@ -36,3 +46,5 @@ export default class PrayerStack extends Component {
         )
     }
 }
+
+

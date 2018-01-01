@@ -5,23 +5,31 @@ import threeBuddhasPic from '../assets/threeBuddha.png';
 import PrayerStack from '../components/PrayerStack';
 
 export default class Home extends Component {
-    constructor() {
-        super();
-
-        this.state = {
-            bar: 'testing testing'
-        }
-    }
     render() {
         return (
-            <ScrollView style={prayerStyles.scrollWidth}>
+            <ScrollView 
+            style={{
+                width: 375, 
+                backgroundColor: '#FFE4C4',
+                paddingLeft: 10,
+                paddingRight: 30,
+                paddingTop: 50
+                }}>
                 <Image 
                 source={threeBuddhasPic} 
-                style={{ height: 400}} />
-                <Text>{this.state.bar}</Text>
+                style={{ 
+                    paddingLeft: 100,
+                    width: 300, 
+                    height: 300, 
+                    borderRadius: 800 
+                    }} />
                 <Text style={prayerStyles.header}>Practice Book</Text>
                 <PrayerStack 
-                style={[prayerStyles.prayerHeight, prayerStyles.prayerWidth]}
+                style={[
+                    prayerStyles.prayerHeight, 
+                    prayerStyles.prayerWidth,
+                    prayerStyles.prayerFontSize,
+                ]}
                 >
                 </PrayerStack>
             </ScrollView>
@@ -31,6 +39,7 @@ export default class Home extends Component {
 
 const prayerStyles = StyleSheet.create({
     header: {
+        textAlign: 'center',
         color: 'blue',
         fontSize: 40,
     },
@@ -40,7 +49,7 @@ const prayerStyles = StyleSheet.create({
     prayerWidth: {
         width: 350,
     },
-    scrollWidth: {
-        width: 350,
-    },
+    prayerFontSize: {
+        fontSize: 70,
+    }
 });
