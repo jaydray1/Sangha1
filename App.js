@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import Home from './components/Home';
+import Landing from './components/Landing';
 
 export default class App extends Component {
   render() {
     return (
       <View>
+        <Landing></Landing>
         <Home></Home>
       </View>
     );

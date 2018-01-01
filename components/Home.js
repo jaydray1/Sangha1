@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet, Text, Image } from 'react-native';
 import threeBuddhasPic from '../assets/threeBuddha.png';
 
 import PrayerStack from '../components/PrayerStack';
+import Footer from './Footer';
 
 export default class Home extends Component {
     render() {
@@ -32,6 +33,7 @@ export default class Home extends Component {
                 ]}
                 >
                 </PrayerStack>
+                <Footer/>
             </ScrollView>
         )
     }
