@@ -4,7 +4,7 @@ import { View, Text, Button } from 'react-native';
 const Landing = ({navigation}) => (
     <View style={{
         backgroundColor: 'red',
-        flex: 1, 
+        flex: 0.5, 
         alignItems: 'center', 
         justifyContent: 'center'
 }} >

@@ -10,7 +10,6 @@ export default class Home extends Component {
         return (
             <ScrollView 
             style={{
-                width: 375, 
                 backgroundColor: '#FFE4C4',
                 paddingLeft: 10,
                 paddingRight: 30,
@@ -19,16 +18,15 @@ export default class Home extends Component {
                 <Image 
                 source={threeBuddhasPic} 
                 style={{ 
-                    paddingLeft: 100,
+                    flex: 0,
                     width: 300, 
                     height: 300, 
-                    borderRadius: 800 
+                    borderRadius: 800
                     }} />
                 <Text style={prayerStyles.header}>Practice Book</Text>
                 <PrayerStack 
                 style={[
                     prayerStyles.prayerHeight, 
-                    prayerStyles.prayerWidth,
                     prayerStyles.prayerFontSize,
                 ]}
                 >
@@ -46,10 +44,7 @@ const prayerStyles = StyleSheet.create({
         fontSize: 40,
     },
     prayerHeight: {
-        height: 500,
-    },
-    prayerWidth: {
-        width: 350,
+        flex: 1,
     },
     prayerFontSize: {
         fontSize: 70,
