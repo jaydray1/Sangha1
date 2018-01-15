@@ -1,16 +1,18 @@
 import React from 'react';
 import { StackNavigator } from 'react-navigation';
 import { View } from 'react-native';
+import PrayerStack from './PrayerStack';
+import Landing from './Landing';
 
 const RootNavigator = StackNavigator({
     Home: { 
-        screen: HomeScreen,
+        screen: Landing,
         navigationOptions: {
             headerTitle: 'Home',
         },
     },
     Prayers: { 
-        screen: PrayersScreen,
+        screen: PrayerStack,
         navigationOptions: {
             headerTitle: 'Prayers',
         },
