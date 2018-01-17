@@ -12,14 +12,15 @@ export default class OpenApp extends Component {
             <View>
                 <Text 
                 style={{
-                    fontWeight: 'bold', 
+                    fontWeight: 'bold',
+                    fontSize: 20,
                     textAlign: 'center',
                     marginTop: 100
                     }} >
                     The Salt Lake Buddhist Fellowship
                     {'\n'}{'\n'}
-                    Welcome Home
                     </Text>
+                    <Text style={{textAlign: 'center'}} >Welcome Home</Text>
                 <Image 
                 source={lotusOpen} 
                 style={{marginTop: 45, alignSelf: 'center'}}  />
