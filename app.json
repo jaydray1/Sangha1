@@ -2,5 +2,7 @@
   "expo": {
     "sdkVersion": "22.0.0",
     "name": "The Salt Lake Buddhist Fellowship"
-  }
+  },
+  "name": "Sangha1",
+  "displayName": "Mantras"
 }
