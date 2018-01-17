@@ -47,6 +47,9 @@
 		F9BDA450252F41FB95A0E8C1 /* Macondo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B522DE34D411CA9B6F743 /* Macondo-Regular.ttf */; };
 		87201B75B9554FFA849F85A3 /* macondoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6B2A8A3EC384F378E860864 /* macondoRegular.ttf */; };
 		D3D14F6574964470ADD96A81 /* SedgwickAveDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC9A7CEAB84270B98BADDF /* SedgwickAveDisplay-Regular.ttf */; };
+		83F202F4B9484E578EF31EEC /* SedgwickAveDisplay_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 066D8FCE0BE9435985A42246 /* SedgwickAveDisplay_Regular.ttf */; };
+		F214663081C94C3889651F43 /* SedgwickAveDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65A320A2A7384F0CB53EB78A /* SedgwickAveDisplay.ttf */; };
+		BE51F8141AFA4B548BE53BA1 /* SupermercadoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98FC8476F6B348E7A1C544B2 /* SupermercadoOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -296,6 +299,9 @@
 		9E0B522DE34D411CA9B6F743 /* Macondo-Regular.ttf */ = {isa = PBXFileReference; name = "Macondo-Regular.ttf"; path = "../assets/fonts/Macondo-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		F6B2A8A3EC384F378E860864 /* macondoRegular.ttf */ = {isa = PBXFileReference; name = "macondoRegular.ttf"; path = "../assets/fonts/macondoRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 		2DFC9A7CEAB84270B98BADDF /* SedgwickAveDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "SedgwickAveDisplay-Regular.ttf"; path = "../assets/fonts/SedgwickAveDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		066D8FCE0BE9435985A42246 /* SedgwickAveDisplay_Regular.ttf */ = {isa = PBXFileReference; name = "SedgwickAveDisplay_Regular.ttf"; path = "../assets/fonts/SedgwickAveDisplay_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65A320A2A7384F0CB53EB78A /* SedgwickAveDisplay.ttf */ = {isa = PBXFileReference; name = "SedgwickAveDisplay.ttf"; path = "../assets/fonts/SedgwickAveDisplay.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		98FC8476F6B348E7A1C544B2 /* SupermercadoOne-Regular.ttf */ = {isa = PBXFileReference; name = "SupermercadoOne-Regular.ttf"; path = "../assets/fonts/SupermercadoOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -583,6 +589,9 @@
 				9E0B522DE34D411CA9B6F743 /* Macondo-Regular.ttf */,
 				F6B2A8A3EC384F378E860864 /* macondoRegular.ttf */,
 				2DFC9A7CEAB84270B98BADDF /* SedgwickAveDisplay-Regular.ttf */,
+				066D8FCE0BE9435985A42246 /* SedgwickAveDisplay_Regular.ttf */,
+				65A320A2A7384F0CB53EB78A /* SedgwickAveDisplay.ttf */,
+				98FC8476F6B348E7A1C544B2 /* SupermercadoOne-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -973,6 +982,9 @@
 				F9BDA450252F41FB95A0E8C1 /* Macondo-Regular.ttf in Resources */,
 				87201B75B9554FFA849F85A3 /* macondoRegular.ttf in Resources */,
 				D3D14F6574964470ADD96A81 /* SedgwickAveDisplay-Regular.ttf in Resources */,
+				83F202F4B9484E578EF31EEC /* SedgwickAveDisplay_Regular.ttf in Resources */,
+				F214663081C94C3889651F43 /* SedgwickAveDisplay.ttf in Resources */,
+				BE51F8141AFA4B548BE53BA1 /* SupermercadoOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
