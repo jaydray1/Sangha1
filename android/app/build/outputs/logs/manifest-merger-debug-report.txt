@@ -17,6 +17,7 @@ ADDED from /Users/jmjd/DevMtn/react_native/Sangha1/android/app/src/main/AndroidM
 		ADDED from /Users/jmjd/DevMtn/react_native/Sangha1/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/jmjd/DevMtn/react_native/Sangha1/android/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.microsoft.appcenter:appcenter:1.1.0] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter/appcenter/1.1.0/AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from /Users/jmjd/DevMtn/react_native/Sangha1/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -26,6 +27,13 @@ MERGED from [com.facebook.react:react-native:0.49.5] /Users/jmjd/DevMtn/react_na
 		ADDED from /Users/jmjd/DevMtn/react_native/Sangha1/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /Users/jmjd/DevMtn/react_native/Sangha1/android/app/src/main/AndroidManifest.xml:9:5-11:41
+MERGED from [Sangha1:appcenter-crashes:unspecified] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/Sangha1/appcenter-crashes/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.1.0] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter/appcenter-crashes/1.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [Sangha1:appcenter-analytics:unspecified] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/Sangha1/appcenter-analytics/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.1.0] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter/appcenter-analytics/1.1.0/AndroidManifest.xml:8:5-10:41
+MERGED from [Sangha1:appcenter:unspecified] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/Sangha1/appcenter/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter.reactnative:appcenter-react-native:1.1.0] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter.reactnative/appcenter-react-native/1.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter:1.1.0] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter/appcenter/1.1.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.49.5] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.5/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:23.0.1] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
@@ -86,6 +94,10 @@ activity#com.facebook.react.devsupport.DevSettingsActivity
 ADDED from /Users/jmjd/DevMtn/react_native/Sangha1/android/app/src/main/AndroidManifest.xml:29:7-84
 	android:name
 		ADDED from /Users/jmjd/DevMtn/react_native/Sangha1/android/app/src/main/AndroidManifest.xml:29:17-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.microsoft.appcenter:appcenter:1.1.0] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter/appcenter/1.1.0/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.microsoft.appcenter:appcenter:1.1.0] /Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter/appcenter/1.1.0/AndroidManifest.xml:12:22-76
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from /Users/jmjd/DevMtn/react_native/Sangha1/android/app/src/main/AndroidManifest.xml:1:1-32:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE

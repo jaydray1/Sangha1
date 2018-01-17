@@ -12,8 +12,10 @@ export default class OpenApp extends Component {
             <View>
                 <Text 
                 style={{
+                    fontFamily: 'macondoRegular',
+                    color: 'red',
                     fontWeight: 'bold',
-                    fontSize: 20,
+                    fontSize: 30,
                     textAlign: 'center',
                     marginTop: 100
                     }} >

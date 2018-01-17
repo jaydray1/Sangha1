@@ -3,48 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="/Users/jmjd/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_df5645f645b4450a45c89e5c567b499d2589af46.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="8f615bca00639150c9eb6175d4b5471193f70794">
         <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_472b26a10d9be3872f825c7551facbfe131a8e31.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jmjd/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_cd2d2e71529551b4c7cd5cb3edd8d666e7e502aa.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jmjd/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_55b3651927b124e986591d5d2cfc59774f31579f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_4b3cfd776270d12c8f0564c327b6698c8d348b5c.jar" />
     </item>
     <item
         is-multidex="false"
@@ -57,30 +21,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jmjd/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter/appcenter/1.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_0fe28a2aefa1f4d7d2c0c3bd71a6cbb42acfd193.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_60ede819d54e5b9cdc09daa0ba632b95c26ca48b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_f470b12c224e0bb5ef0c01413556451afe3b77d7.jar" />
+        sha1="1abd83c5e60883768bd3d3ff1a6b36c67611e27a">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.microsoft.appcenter-appcenter-1.1.0_e648b4ec2ea5e23e0206c599d770507cfaa6d9a1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -102,12 +48,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.5/jars/libs/infer-annotations-4.0.jar"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/Sangha1/appcenter-crashes/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_5a6975e33c369d434ca0a552b33ddc0fd1b729a5.jar" />
+        sha1="83229aac2ceb88cdfeef282c6b96d2f6609053bd">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/Sangha1-appcenter-crashes-unspecified_9e130b85d2c381fe0f56a93ccea8eb5ad11f446f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/Sangha1/appcenter/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="51a458232f1952d0b889152d88b273ff40807b8c">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/Sangha1-appcenter-unspecified_85f3a9ffbc554edb85431946e5424ae5962d5dc6.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,30 +75,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_a24bad3b8f47f982aca399688b7a603cef40a4f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
         <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_d414eb54f2df910bd24306815a16d13db39f18f2.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
-        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_5a346fc75fd6a0cc2fd9d0827f52fb749ca22bd5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -183,12 +120,138 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter/appcenter-crashes/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fd8fedbb2924a8e4b926918796b22789c6b1abc">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.microsoft.appcenter-appcenter-crashes-1.1.0_3f6b6a6618d431aa204bddf440cfa12be5cb5e4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_df5645f645b4450a45c89e5c567b499d2589af46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_cd2d2e71529551b4c7cd5cb3edd8d666e7e502aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_55b3651927b124e986591d5d2cfc59774f31579f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.3.0_4b3cfd776270d12c8f0564c327b6698c8d348b5c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_0fe28a2aefa1f4d7d2c0c3bd71a6cbb42acfd193.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_60ede819d54e5b9cdc09daa0ba632b95c26ca48b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.3.0_f470b12c224e0bb5ef0c01413556451afe3b77d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.49.5/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_5a6975e33c369d434ca0a552b33ddc0fd1b729a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/Sangha1/appcenter-analytics/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c4fc1f6fb5ac99ce9a98bb32c5f72d365a44f60b">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/Sangha1-appcenter-analytics-unspecified_5c1911c5ddf36fb6c680ed3cd8a03b770faa794a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.3.0_a24bad3b8f47f982aca399688b7a603cef40a4f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.3.0_5a346fc75fd6a0cc2fd9d0827f52fb749ca22bd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter.reactnative/appcenter-react-native/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="626774a99986c0c8c2ee4a9022a2bd06382f5f52">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.microsoft.appcenter.reactnative-appcenter-react-native-1.1.0_bb7c622297d688923cded7637fdff7e7623dcf86.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
         <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_adc61cbfaa001d4e63ee82a84b7fc9f2e608b7ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/exploded-aar/com.microsoft.appcenter/appcenter-analytics/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="42efb937f01dc517691542b3ca06a58d9a6bae5b">
+        <dex dex="/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/pre-dexed/debug/com.microsoft.appcenter-appcenter-analytics-1.1.0_a1f53054d56a9091eb8abba7c35c54821bcd5048.jar" />
     </item>
 
 </items>
