@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import prayerModel from '../models/prayerModel';
-import { SectionList, ScrollView, StyleSheet, Text, Image } from 'react-native';   
+import { SectionList, ScrollView, StyleSheet, Text, Image } from 'react-native';
+import * as Animatable from 'react-native-animatable';   
 
 export default class PrayerStack extends Component {
     constructor() {
@@ -16,8 +17,8 @@ export default class PrayerStack extends Component {
             return e
         })
         return (
-            <ScrollView>
-                <Text className="renderings">
+            <ScrollView style={{paddingLeft: 5, paddingRight: 5, backgroundColor: 'white'}}>
+                <Animatable.Text className="renderings" animation="fadeIn" >
                 {
                     renderedPrayers.map((e, i) => {
                         return (
@@ -32,16 +33,23 @@ export default class PrayerStack extends Component {
                         {'\n'}{'\n'}
                             <Text style={{
                                 fontWeight: 'bold', 
-                                fontSize: 20
+                                fontSize: 20,
+                                fontFamily: 'Muli-Regular',
+                                color: 'black'
                             }}
                                 >{e.title}</Text>
                         {'\n'}{'\n'}
-                            <Text style={{fontSize: 20}}  >{e.prayerText}</Text>
+                            <Text style={{
+                                fontSize: 20, 
+                                fontFamily: 'Muli-Regular', 
+                                color: 'black',
+                                paddingLeft: 10
+                                }}  >{e.prayerText}</Text>
                         </Text>
                     )
                     })
                 }
-                </Text>
+                </Animatable.Text>
             </ScrollView>
         )
     }
