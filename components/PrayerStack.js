@@ -4,6 +4,9 @@ import { SectionList, ScrollView, StyleSheet, Text, Image } from 'react-native';
 import * as Animatable from 'react-native-animatable';   
 
 export default class PrayerStack extends Component {
+    static navigationOptions = {
+        title: 'Mantras',
+    };
     constructor() {
         super();
 
