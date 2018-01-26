@@ -2,5 +2,5 @@ node_modules/
 .expo/
 npm-debug.*
 android/app/sangha-release-key.keystore
-android/gradle.properties
+/Users/jmjd/DevMtn/react_native/Sangha1/android/gradle.properties
 
