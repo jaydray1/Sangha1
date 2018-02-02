@@ -101,8 +101,8 @@ android {
         applicationId "com.sangha1"
         minSdkVersion 16
         targetSdkVersion 22
-        versionCode 2.1
-        versionName "2.1"
+        versionCode 3.0
+        versionName "3.0"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
