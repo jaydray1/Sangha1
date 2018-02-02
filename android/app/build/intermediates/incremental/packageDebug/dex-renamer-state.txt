@@ -1,4 +1,4 @@
-#Tue Jan 30 20:07:12 MST 2018
+#Fri Feb 02 12:40:19 MST 2018
 base.0=/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/jmjd/DevMtn/react_native/Sangha1/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
