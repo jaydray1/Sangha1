@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Home from './components/Home';
-import OpenApp from './components/OpenApp';
-import StackNavigator from '../Sangha1/components/StackNavigator';
+import Root from './config/router';
 
 export default class App extends Component {
   render() {
     return (
-      <StackNavigator/>
+      <Root/>
       );
   }
 }
