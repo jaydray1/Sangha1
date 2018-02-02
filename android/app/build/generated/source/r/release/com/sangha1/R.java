@@ -1810,25 +1810,8 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f02003b;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f02003c;
         public static final int abc_textfield_search_material=0x7f02003d;
-        public static final int assets_amithabachant=0x7f02003e;
-        public static final int assets_anchor=0x7f02003f;
-        public static final int assets_candle=0x7f020040;
-        public static final int assets_earthleaf=0x7f020041;
-        public static final int assets_gassho=0x7f020042;
-        public static final int assets_guanyin=0x7f020043;
-        public static final int assets_guanyinmantra=0x7f020044;
-        public static final int assets_heartsutramantra=0x7f020045;
-        public static final int assets_incense=0x7f020046;
-        public static final int assets_invocoamida=0x7f020047;
-        public static final int assets_jizo=0x7f020048;
-        public static final int assets_leaf=0x7f020049;
-        public static final int assets_listeningbuddha=0x7f02004a;
-        public static final int assets_lotusmain=0x7f02004b;
-        public static final int assets_pinkbackground=0x7f02004c;
-        public static final int assets_sameworkbuddha=0x7f02004d;
-        public static final int assets_symbolcirlce=0x7f02004e;
-        public static final int node_modules_reactnavigation_src_views_assets_backicon=0x7f02004f;
-        public static final int notification_template_icon_bg=0x7f020050;
+        public static final int node_modules_reactnavigation_src_views_assets_backicon=0x7f02003e;
+        public static final int notification_template_icon_bg=0x7f02003f;
     }
     public static final class id {
         public static final int action0=0x7f0d0058;

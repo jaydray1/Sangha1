@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { ScrollView, Text, StyleSheet } from 'react-native';
 
 export default class PrayerCard extends Component {
     render() {
         const { prayerText } = this.props.navigation.state.params;
         return(
-            <View>
+            <ScrollView>
                 <Text style={styles.prayerStyles}>{prayerText}</Text>
-            </View>
+            </ScrollView>
         )
     }
 }
