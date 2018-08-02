@@ -8,24 +8,53 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 		<key>Pods-Sangha1-tvOSTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
 		</dict>
 		<key>Pods-Sangha1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
 		<key>Pods-Sangha1Tests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>05D273637494CFC439F9815DDE3447FB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>29F15CD45A4958AB8E1FD1A8EEBF31EB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C566BB799EBEDAD30762A84D5F23C554</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CABCF5984DC80F2CEECCCE618AF2EC81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>

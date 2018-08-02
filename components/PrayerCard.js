@@ -14,9 +14,9 @@ export default class PrayerCard extends Component {
 
 const styles = StyleSheet.create({
     prayerStyles: {
-        fontSize: 20,
+        fontSize: 22,
         color: 'black',
         padding: 15,
-        backgroundColor: 'white',
+        backgroundColor: '#F3ECE2',
     }
 })

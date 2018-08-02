@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -26,7 +27,7 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2D02E4C21E0B4AEC006451C7 /* libRCTAnimation-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation-tvOS.a */; };
+		2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */; };
 		2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E881DF850E9000B6D8A /* libRCTLinking-tvOS.a */; };
 		2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E8C1DF850E9000B6D8A /* libRCTNetwork-tvOS.a */; };
@@ -39,19 +40,19 @@
 		4A60B1A7E5CC4ECF8CDF35DE /* libAppCenterReactNativeCrashes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06646CC128AC4A4E867C2EC8 /* libAppCenterReactNativeCrashes.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		83F202F4B9484E578EF31EEC /* SedgwickAveDisplay_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 066D8FCE0BE9435985A42246 /* SedgwickAveDisplay_Regular.ttf */; };
 		84A3D1AEF3EAA546B4010D88 /* libPods-Sangha1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F7141BF1B50764A03F7190 /* libPods-Sangha1.a */; };
+		87201B75B9554FFA849F85A3 /* macondoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6B2A8A3EC384F378E860864 /* macondoRegular.ttf */; };
+		8CDA51DFFE8A442689DEB2D5 /* Muli-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D20654A04C48C882DA2069 /* Muli-Regular.ttf */; };
 		917CBD1F1DC64D79B498A0B0 /* libAppCenterReactNativeAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 66225C27159F457AA379F628 /* libAppCenterReactNativeAnalytics.a */; };
 		AB0D84F5BC924C07A2E4BF04 /* libAppCenterReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E545E13EDC4E40826EB086 /* libAppCenterReactNative.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		AFE0FE6102A67548CD169152 /* libPods-Sangha1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC9B5F545C249E953DED4C7 /* libPods-Sangha1Tests.a */; };
-		F9BDA450252F41FB95A0E8C1 /* Macondo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B522DE34D411CA9B6F743 /* Macondo-Regular.ttf */; };
-		87201B75B9554FFA849F85A3 /* macondoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6B2A8A3EC384F378E860864 /* macondoRegular.ttf */; };
-		D3D14F6574964470ADD96A81 /* SedgwickAveDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC9A7CEAB84270B98BADDF /* SedgwickAveDisplay-Regular.ttf */; };
-		83F202F4B9484E578EF31EEC /* SedgwickAveDisplay_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 066D8FCE0BE9435985A42246 /* SedgwickAveDisplay_Regular.ttf */; };
-		F214663081C94C3889651F43 /* SedgwickAveDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65A320A2A7384F0CB53EB78A /* SedgwickAveDisplay.ttf */; };
 		BE51F8141AFA4B548BE53BA1 /* SupermercadoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98FC8476F6B348E7A1C544B2 /* SupermercadoOne-Regular.ttf */; };
-		8CDA51DFFE8A442689DEB2D5 /* Muli-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 88D20654A04C48C882DA2069 /* Muli-Regular.ttf */; };
+		D3D14F6574964470ADD96A81 /* SedgwickAveDisplay-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC9A7CEAB84270B98BADDF /* SedgwickAveDisplay-Regular.ttf */; };
+		F214663081C94C3889651F43 /* SedgwickAveDisplay.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65A320A2A7384F0CB53EB78A /* SedgwickAveDisplay.ttf */; };
 		F520A9D3836F4459A63EC280 /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 695CB15419144427B6ACEDEB /* Lato-Regular.ttf */; };
+		F9BDA450252F41FB95A0E8C1 /* Macondo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B522DE34D411CA9B6F743 /* Macondo-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +125,48 @@
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
 			remoteInfo = "Sangha1-tvOS";
+		};
+		2DB206FF2028D63F00B296DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F90E787B3F3485295BA824E /* AppCenterReactNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C35AEC211EF91F9300931F0C;
+			remoteInfo = AppCenterReactNative;
+		};
+		2DB207022028D63F00B296DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 223EBAAC0FDB44E5A0FFD37F /* AppCenterReactNativeAnalytics.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 548694001D8384E600E6685A;
+			remoteInfo = AppCenterReactNativeAnalytics;
+		};
+		2DB207052028D63F00B296DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE7B2CF44CC419E99D3C468 /* AppCenterReactNativeCrashes.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5419C2701D824AA700DDF3A1;
+			remoteInfo = AppCenterReactNativeCrashes;
+		};
+		2DB2070C2028D63F00B296DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ADD01A681E09402E00F6D226;
+			remoteInfo = "RCTBlob-tvOS";
+		};
+		2DB2071E2028D63F00B296DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DBE0D001F3B181A0099AA32;
+			remoteInfo = fishhook;
+		};
+		2DB207202028D63F00B296DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3DBE0D0D1F3B181C0099AA32;
+			remoteInfo = "fishhook-tvOS";
 		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -263,7 +306,8 @@
 		00E356EE1AD99517003FC87E /* Sangha1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sangha1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* Sangha1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sangha1Tests.m; sourceTree = "<group>"; };
-		06646CC128AC4A4E867C2EC8 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libAppCenterReactNativeCrashes.a; path = libAppCenterReactNativeCrashes.a; sourceTree = "<group>"; };
+		06646CC128AC4A4E867C2EC8 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeCrashes.a; sourceTree = "<group>"; };
+		066D8FCE0BE9435985A42246 /* SedgwickAveDisplay_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SedgwickAveDisplay_Regular.ttf; path = ../assets/fonts/SedgwickAveDisplay_Regular.ttf; sourceTree = "<group>"; };
 		0693D15AF28BCD1E7D763F97 /* Pods-Sangha1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangha1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sangha1/Pods-Sangha1.release.xcconfig"; sourceTree = "<group>"; };
 		0D8AE252B3CF36DE247DD021 /* Pods-Sangha1-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangha1-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sangha1-tvOSTests/Pods-Sangha1-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
@@ -277,35 +321,34 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sangha1/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		21660BAD23ED3E0B55A0E2A2 /* Pods-Sangha1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangha1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sangha1Tests/Pods-Sangha1Tests.release.xcconfig"; sourceTree = "<group>"; };
-		223EBAAC0FDB44E5A0FFD37F /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeAnalytics.xcodeproj; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; };
+		223EBAAC0FDB44E5A0FFD37F /* AppCenterReactNativeAnalytics.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeAnalytics.xcodeproj; path = "../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Sangha1-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sangha1-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Sangha1-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sangha1-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F90E787B3F3485295BA824E /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNative.xcodeproj; path = ../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj; sourceTree = "<group>"; };
+		2DFC9A7CEAB84270B98BADDF /* SedgwickAveDisplay-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SedgwickAveDisplay-Regular.ttf"; path = "../assets/fonts/SedgwickAveDisplay-Regular.ttf"; sourceTree = "<group>"; };
+		2F90E787B3F3485295BA824E /* AppCenterReactNative.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNative.xcodeproj; path = ../node_modules/appcenter/ios/AppCenterReactNative.xcodeproj; sourceTree = "<group>"; };
 		35919FA81C34B6E1EE577A4B /* Pods-Sangha1-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangha1-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sangha1-tvOS/Pods-Sangha1-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		46E545E13EDC4E40826EB086 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libAppCenterReactNative.a; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
+		46E545E13EDC4E40826EB086 /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
 		4A5F746397294BB567189215 /* libPods-Sangha1-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sangha1-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5021046183BC4B0F84FD4C51 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "Sangha1/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
-		66225C27159F457AA379F628 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = archive.ar; name = libAppCenterReactNativeAnalytics.a; path = libAppCenterReactNativeAnalytics.a; sourceTree = "<group>"; };
+		65A320A2A7384F0CB53EB78A /* SedgwickAveDisplay.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SedgwickAveDisplay.ttf; path = ../assets/fonts/SedgwickAveDisplay.ttf; sourceTree = "<group>"; };
+		66225C27159F457AA379F628 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeAnalytics.a; sourceTree = "<group>"; };
+		695CB15419144427B6ACEDEB /* Lato-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		7CC9B5F545C249E953DED4C7 /* libPods-Sangha1Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sangha1Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		86F7141BF1B50764A03F7190 /* libPods-Sangha1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sangha1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		875224B11CF711029EF99F26 /* Pods-Sangha1-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangha1-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sangha1-tvOSTests/Pods-Sangha1-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		88D20654A04C48C882DA2069 /* Muli-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Muli-Regular.ttf"; path = "../assets/fonts/Muli-Regular.ttf"; sourceTree = "<group>"; };
+		98FC8476F6B348E7A1C544B2 /* SupermercadoOne-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SupermercadoOne-Regular.ttf"; path = "../assets/fonts/SupermercadoOne-Regular.ttf"; sourceTree = "<group>"; };
 		9A61F6CAD5BE7D24787A3BE2 /* Pods-Sangha1-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangha1-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sangha1-tvOS/Pods-Sangha1-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		9E0B522DE34D411CA9B6F743 /* Macondo-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Macondo-Regular.ttf"; path = "../assets/fonts/Macondo-Regular.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		CFB4C132AFAB9532C3138A86 /* Pods-Sangha1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangha1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sangha1/Pods-Sangha1.debug.xcconfig"; sourceTree = "<group>"; };
 		E226112A770441B6143209DA /* Pods-Sangha1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sangha1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sangha1Tests/Pods-Sangha1Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEA7291BB29959362C611DF0 /* libPods-Sangha1-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sangha1-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FCE7B2CF44CC419E99D3C468 /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeCrashes.xcodeproj; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; };
-		9E0B522DE34D411CA9B6F743 /* Macondo-Regular.ttf */ = {isa = PBXFileReference; name = "Macondo-Regular.ttf"; path = "../assets/fonts/Macondo-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		F6B2A8A3EC384F378E860864 /* macondoRegular.ttf */ = {isa = PBXFileReference; name = "macondoRegular.ttf"; path = "../assets/fonts/macondoRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2DFC9A7CEAB84270B98BADDF /* SedgwickAveDisplay-Regular.ttf */ = {isa = PBXFileReference; name = "SedgwickAveDisplay-Regular.ttf"; path = "../assets/fonts/SedgwickAveDisplay-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		066D8FCE0BE9435985A42246 /* SedgwickAveDisplay_Regular.ttf */ = {isa = PBXFileReference; name = "SedgwickAveDisplay_Regular.ttf"; path = "../assets/fonts/SedgwickAveDisplay_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		65A320A2A7384F0CB53EB78A /* SedgwickAveDisplay.ttf */ = {isa = PBXFileReference; name = "SedgwickAveDisplay.ttf"; path = "../assets/fonts/SedgwickAveDisplay.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		98FC8476F6B348E7A1C544B2 /* SupermercadoOne-Regular.ttf */ = {isa = PBXFileReference; name = "SupermercadoOne-Regular.ttf"; path = "../assets/fonts/SupermercadoOne-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		88D20654A04C48C882DA2069 /* Muli-Regular.ttf */ = {isa = PBXFileReference; name = "Muli-Regular.ttf"; path = "../assets/fonts/Muli-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		695CB15419144427B6ACEDEB /* Lato-Regular.ttf */ = {isa = PBXFileReference; name = "Lato-Regular.ttf"; path = "../assets/fonts/Lato-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		F6B2A8A3EC384F378E860864 /* macondoRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = macondoRegular.ttf; path = ../assets/fonts/macondoRegular.ttf; sourceTree = "<group>"; };
+		FCE7B2CF44CC419E99D3C468 /* AppCenterReactNativeCrashes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = AppCenterReactNativeCrashes.xcodeproj; path = "../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -347,7 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4C91E0B4AEC006451C7 /* libReact-tvOS.a in Frameworks */,
-				2D02E4C21E0B4AEC006451C7 /* libRCTAnimation-tvOS.a in Frameworks */,
+				2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */,
 				2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */,
 				2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */,
 				2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */,
@@ -442,6 +485,8 @@
 			children = (
 				139FDEF41B06529B00C62182 /* libRCTWebSocket.a */,
 				3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */,
+				2DB2071F2028D63F00B296DC /* libfishhook.a */,
+				2DB207212028D63F00B296DC /* libfishhook-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -464,7 +509,6 @@
 			isa = PBXGroup;
 			children = (
 				146834041AC3E56700842450 /* libReact.a */,
-				3DAD3EA31DF850E9000B6D8A /* libReact-tvOS.a */,
 				3DAD3EA51DF850E9000B6D8A /* libyoga.a */,
 				3DAD3EA71DF850E9000B6D8A /* libyoga.a */,
 				3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */,
@@ -476,11 +520,35 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2DB206F82028D63F00B296DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DB207062028D63F00B296DC /* libAppCenterReactNativeCrashes.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DB206FA2028D63F00B296DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DB207032028D63F00B296DC /* libAppCenterReactNativeAnalytics.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DB206FC2028D63F00B296DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DB207002028D63F00B296DC /* libAppCenterReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */,
-				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation-tvOS.a */,
+				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -498,6 +566,21 @@
 				21660BAD23ED3E0B55A0E2A2 /* Pods-Sangha1Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		738047A21A10400E8838A243 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E0B522DE34D411CA9B6F743 /* Macondo-Regular.ttf */,
+				F6B2A8A3EC384F378E860864 /* macondoRegular.ttf */,
+				2DFC9A7CEAB84270B98BADDF /* SedgwickAveDisplay-Regular.ttf */,
+				066D8FCE0BE9435985A42246 /* SedgwickAveDisplay_Regular.ttf */,
+				65A320A2A7384F0CB53EB78A /* SedgwickAveDisplay.ttf */,
+				98FC8476F6B348E7A1C544B2 /* SupermercadoOne-Regular.ttf */,
+				88D20654A04C48C882DA2069 /* Muli-Regular.ttf */,
+				695CB15419144427B6ACEDEB /* Lato-Regular.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -572,6 +655,7 @@
 			isa = PBXGroup;
 			children = (
 				ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */,
+				2DB2070D2028D63F00B296DC /* libRCTBlob-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -586,22 +670,6 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
-		};
-		738047A21A10400E8838A243 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				9E0B522DE34D411CA9B6F743 /* Macondo-Regular.ttf */,
-				F6B2A8A3EC384F378E860864 /* macondoRegular.ttf */,
-				2DFC9A7CEAB84270B98BADDF /* SedgwickAveDisplay-Regular.ttf */,
-				066D8FCE0BE9435985A42246 /* SedgwickAveDisplay_Regular.ttf */,
-				65A320A2A7384F0CB53EB78A /* SedgwickAveDisplay.ttf */,
-				98FC8476F6B348E7A1C544B2 /* SupermercadoOne-Regular.ttf */,
-				88D20654A04C48C882DA2069 /* Muli-Regular.ttf */,
-				695CB15419144427B6ACEDEB /* Lato-Regular.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -727,6 +795,18 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 2DB206FC2028D63F00B296DC /* Products */;
+					ProjectRef = 2F90E787B3F3485295BA824E /* AppCenterReactNative.xcodeproj */;
+				},
+				{
+					ProductGroup = 2DB206FA2028D63F00B296DC /* Products */;
+					ProjectRef = 223EBAAC0FDB44E5A0FFD37F /* AppCenterReactNativeAnalytics.xcodeproj */;
+				},
+				{
+					ProductGroup = 2DB206F82028D63F00B296DC /* Products */;
+					ProjectRef = FCE7B2CF44CC419E99D3C468 /* AppCenterReactNativeCrashes.xcodeproj */;
+				},
+				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
 				},
@@ -842,6 +922,48 @@
 			remoteRef = 146834031AC3E56700842450 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		2DB207002028D63F00B296DC /* libAppCenterReactNative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNative.a;
+			remoteRef = 2DB206FF2028D63F00B296DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DB207032028D63F00B296DC /* libAppCenterReactNativeAnalytics.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeAnalytics.a;
+			remoteRef = 2DB207022028D63F00B296DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DB207062028D63F00B296DC /* libAppCenterReactNativeCrashes.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libAppCenterReactNativeCrashes.a;
+			remoteRef = 2DB207052028D63F00B296DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DB2070D2028D63F00B296DC /* libRCTBlob-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTBlob-tvOS.a";
+			remoteRef = 2DB2070C2028D63F00B296DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DB2071F2028D63F00B296DC /* libfishhook.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libfishhook.a;
+			remoteRef = 2DB2071E2028D63F00B296DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DB207212028D63F00B296DC /* libfishhook-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfishhook-tvOS.a";
+			remoteRef = 2DB207202028D63F00B296DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -940,10 +1062,10 @@
 			remoteRef = 5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		5E9157351DD0AC6500FF2AA8 /* libRCTAnimation-tvOS.a */ = {
+		5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libRCTAnimation-tvOS.a";
+			path = libRCTAnimation.a;
 			remoteRef = 5E9157341DD0AC6500FF2AA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
